@@ -1,9 +1,12 @@
 a {
   font-size: 30px;
   color: lightgreen;
-  margin-left: auto;
 }
 
 body {
   background-color: black;
+}
+
+div {
+  margin: auto
 }
