@@ -6,3 +6,9 @@ body, a {
   color: #B0C4DE;
   font-size: 35px;
 }
+
+.chatbox {
+  margin-right: 5px;
+  margint-top :5px;
+  border: thick double #32a1ce;
+}
