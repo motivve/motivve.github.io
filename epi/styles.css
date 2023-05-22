@@ -90,3 +90,8 @@ body::before {
   border: 2px solid #000;
   position: absolute;
 }
+section#processus img {
+  width: 100%;
+  height: auto;
+  margin: 0 10px 10px;
+}
