@@ -1,9 +1,23 @@
-<form method="post" action="process_login.php">
-  <label for="username">Username:</label>
-  <input type="text" id="username" name="username"><br><br>
-  
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password"><br><br>
-
-  <input type="submit" value="Submit">
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css"> <!-- Add your custom CSS file for styling -->
+</head>
+<body>
+  <h1>Login</h1>
+  <form action="/login" method="POST">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+      <button type="submit">Log in</button>
+    </div>
+  </form>
+</body>
+</html>
