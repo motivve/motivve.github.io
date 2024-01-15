@@ -10,18 +10,22 @@
     <title>Euler Réponses</title>
 </head>
 <body>
-<!--DEBUT2-->
-<a href="#" id="showPopup">Problème 2</a>
+<!--DEBUT1-->
+<a href="#" id="showPopup">Problème 1</a>
 
 <div id="codePopup" class="popup">
     <div class="popup-content">
         <pre><code class="python">
-print("Hello World")
+x = 0
+for i in range(1000):
+    if i%3 == 0 or i%5 == 0:
+        x += i
+print(x)
         </code></pre>
         <span class="close" id="closePopup">&times;</span>
     </div>
 </div>
-<!--FIN2-->
+<!--FIN1-->
 <script src="script.js"></script>
 
 </body>
