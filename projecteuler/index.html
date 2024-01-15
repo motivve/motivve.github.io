@@ -10,6 +10,7 @@
     <title>Euler Réponses</title>
 </head>
 <body>
+<h1>Code utilisé pour les problèmes <a href="https://projecteuler.net" target="_blank">Project Euler</a></h1>
 <!--DEBUT1-->
 <a href="#" id="showPopup">Problème 1</a>
 
@@ -26,6 +27,30 @@ print(x)
     </div>
 </div>
 <!--FIN1-->
+    <br>
+<!--DEBUT2-->
+<a href="#" id="showPopup">Problème 2</a>
+
+<div id="codePopup" class="popup">
+    <div class="popup-content">
+        <pre><code class="python">
+i = 0
+somme = [2]
+chx = 1
+chn = 2
+while i < 4000000:
+    i = chx + chn
+    chx = chn
+    chn = i
+    if i < 4000000 and i%2 == 0:
+        somme.append(i)
+print(somme)
+print(sum(somme))
+        </code></pre>
+        <span class="close" id="closePopup">&times;</span>
+    </div>
+</div>
+<!--FIN2-->
 <script src="script.js"></script>
 
 </body>
