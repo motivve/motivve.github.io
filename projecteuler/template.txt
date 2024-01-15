@@ -1,0 +1,14 @@
+<a href="#" id="showPopup">Show Code Popup</a>
+
+<div id="codePopup" class="popup">
+    <div class="popup-content">
+        <!-- Your Python code goes here -->
+        <pre>
+            <code>
+                # Python script
+                print("Hello World")
+            </code>
+        </pre>
+        <span class="close" id="closePopup">&times;</span>
+    </div>
+</div>
