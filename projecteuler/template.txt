@@ -1,13 +1,10 @@
-<a href="#" id="showPopup">Show Code Popup</a>
+<a href="#" id="showPopup">Problème 2</a>
 
 <div id="codePopup" class="popup">
     <div class="popup-content">
-        <pre>
-            <code>
-                # Python script
-                print("Hello World")
-            </code>
-        </pre>
+        <pre><code class="python">
+print("Hello World")
+        </code></pre>
         <span class="close" id="closePopup">&times;</span>
     </div>
 </div>
