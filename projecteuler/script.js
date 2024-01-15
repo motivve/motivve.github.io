@@ -1,19 +1,11 @@
-document.getElementById('showPopup1').addEventListener('click', function() {
-    // Show the popup for problem 1
-    showPopup('codePopup1');
-});
+for (let i = 1; i <= 30; i++) {
+    // Add event listener for showing popup
+    document.getElementById('showPopup' + i).addEventListener('click', function() {
+        showPopup('codePopup' + i);
+    });
 
-document.getElementById('closePopup1').addEventListener('click', function() {
-    // Close the popup for problem 1
-    closePopup('codePopup1');
-});
-
-document.getElementById('showPopup2').addEventListener('click', function() {
-    // Show the popup for problem 2
-    showPopup('codePopup2');
-});
-
-document.getElementById('closePopup2').addEventListener('click', function() {
-    // Close the popup for problem 2
-    closePopup('codePopup2');
-});
+    // Add event listener for closing popup
+    document.getElementById('closePopup' + i).addEventListener('click', function() {
+        closePopup('codePopup' + i);
+    });
+}
