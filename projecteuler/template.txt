@@ -2,7 +2,6 @@
 
 <div id="codePopup" class="popup">
     <div class="popup-content">
-        <!-- Your Python code goes here -->
         <pre>
             <code>
                 # Python script
