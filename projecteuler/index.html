@@ -11,49 +11,9 @@
 </head>
 <body>
     <h1>Code utilisé pour les problèmes <a href="https://projecteuler.net" target="_blank">Project Euler</a></h1>
-
-    <!-- DEBUT1 -->
-    <a href="#" id="showPopup1">Problème 1</a>
-
-    <div id="codePopup1" class="popup">
-        <div class="popup-content">
-            <pre><code class="python">
-x = 0
-for i in range(1000):
-    if i%3 == 0 or i%5 == 0:
-        x += i
-print(x)
-            </code></pre>
-            <span class="close" id="closePopup1">&times;</span>
-        </div>
-    </div>
-    <!-- FIN1 -->
-    <br>
-
-    <!-- DEBUT2 -->
-    <a href="#" id="showPopup2">Problème 2</a>
-
-    <div id="codePopup2" class="popup">
-        <div class="popup-content">
-            <pre><code class="python">
-i = 0
-somme = [2]
-chx = 1
-chn = 2
-while i < 4000000:
-    i = chx + chn
-    chx = chn
-    chn = i
-    if i < 4000000 and i%2 == 0:
-        somme.append(i)
-print(somme)
-print(sum(somme))
-            </code></pre>
-            <span class="close" id="closePopup2">&times;</span>
-        </div>
-    </div>
-    <!-- FIN2 -->
-
-    <script src="script.js"></script>
+    <h3>Problème 1</h3><br>    
+<iframe src="https://trinket.io/embed/python/dbfb64544f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    <h3>Problème 2</h3><br>
+<iframe src="https://trinket.io/embed/python/5ccfdf364f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </body>
 </html>
